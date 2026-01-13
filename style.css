@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Components Experiment</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        /* Element Selector */
+        body {
+            background-color: lightyellow;
+            font-family: Arial;
+        }
+
+        /* ID Selector */
+        #mainHeading {
+            color: blue;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .content {
+            color: green;
+            font-size: 18px;
+        }
+
+        /* Group Selector */
+        h2, h3 {
+            color: brown;
+        }
+
+        /* Descendant Selector */
+        div p {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- INLINE CSS -->
+    <h1 id="mainHeading" style="text-decoration: underline;">
+        CSS Components Demonstration
+    </h1>
+
+    <h2>1. Types of CSS</h2>
+    <p class="content">This paragraph uses INTERNAL CSS.</p>
+
+    <p style="color: red;">This paragraph uses INLINE CSS.</p>
+
+    <h2>2. CSS Selectors</h2>
+    <h3>Element Selector</h3>
+    <p>The body tag uses element selector.</p>
+
+    <h3>Class Selector</h3>
+    <p class="content">This paragraph uses class selector.</p>
+
+    <h3>ID Selector</h3>
+    <p>The heading above uses ID selector.</p>
+
+    <h2>3. Descendant Selector</h2>
+    <div>
+        <p>This paragraph is inside a div.</p>
+    </div>
+
+    <h2>4. CSS Properties and Values</h2>
+    <p class="content">
+        Properties like color, font-size, background-color are used with values.
+    </p>
+
+</body>
+</html>
